@@ -9,7 +9,7 @@ def print_matrix_integer(matrix=[]):
                 else:
                     print("{:d} ".format(elt), end=" "),
                 i += 1
-            print('$')
+            print()
             i = 0
     else:
-        print('$')
+        print()
