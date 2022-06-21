@@ -27,10 +27,12 @@ class Square:
         """returns the size square"""
         return self.__size ** 2
 
+    @property
     def size(self):
         """Gets size"""
         return self.__size
 
+    @size.setter
     def size(self, value):
         """Sets size
         :param value: value that should be set
