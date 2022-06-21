@@ -10,5 +10,11 @@ class Square:
     pass
 
     def __init__(self, size):
-        """init method"""
+        """
+         init method
+         :param size: size of the Square
+
+         Args:
+             size: size of the Square
+         """
         self.__size = size

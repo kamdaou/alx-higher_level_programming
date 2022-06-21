@@ -26,3 +26,20 @@ class Square:
     def area(self):
         """returns the size square"""
         return self.__size ** 2
+
+    def size(self):
+        """Gets size"""
+        return self.__size
+
+    def size(self, value):
+        """Sets size
+        :param value: value that should be set
+
+        Args:
+            value: Value that should be set
+        """
+        if not isinstance(value, int):
+            raise TypeError("size must be an integer")
+        if value < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = value

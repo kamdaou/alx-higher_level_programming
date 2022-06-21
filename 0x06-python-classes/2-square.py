@@ -10,7 +10,13 @@ class Square:
     pass
 
     def __init__(self, size=0):
-        """init method"""
+        """
+         init method
+         :param size: size of the Square
+
+         Args:
+             size: size of the Square
+         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:
