@@ -2,6 +2,9 @@
 class BaseGeometry:
     """
     BaseGeometry class
+    Methods:
+        area: raises an Exception with the message area() is not implemented
+        integer_validator: validates values
     """
     def area(self):
         """
