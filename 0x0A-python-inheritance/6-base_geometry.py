@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+6-base_geometry: contains Base Geometry class
+"""
+
+
 class BaseGeometry:
     """
     BaseGeometry class
