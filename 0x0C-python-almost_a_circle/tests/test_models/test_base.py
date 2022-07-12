@@ -22,8 +22,12 @@ class TestBaseClass(unittest.TestCase):
         """
         Tests if creating an instance of base class without an id gives the right value.
         """
-        base = Base()
-        self.assertEqual(base.id, 1)
+        base = Base(2)
+        base1 = Base()
+        base2 = Base()
+        self.assertEqual(base.id, 2)
+        self.assertEqual(base1.id, 3)
+        self.assertEqual(base2.id, 4)
 
 
 if __name__ == '__main__':
